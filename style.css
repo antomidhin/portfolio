@@ -98,7 +98,11 @@
 .aitem:hover {
   color: blue;
 }
-
+@media (min-width: 768px) {
+  .navbar-toggler {
+    display: none; /* Hide the toggler in desktop view */
+  }
+}
 /* Navbar Styles */
 .navbar {
   position: fixed;
