@@ -108,9 +108,13 @@
 }
 
 /* Remove Border and Box Shadow from Toggle Icon */
-.navbar-toggler,
-.navbar-toggler-icon {
+.navbar-toggler{
   border: none;
+}
+.navbar-toggler:focus {
+    outline: none; /* Remove the outline when the toggle button is focused */
+    box-shadow: none;
+    border: none; /* Remove any box shadow */
 }
 
 /* Contact Form Styles */
