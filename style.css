@@ -41,8 +41,8 @@
 
 /* Typing Animation for desktop view */
 .banner span.typing-animation {
-  letter-spacing: 10px; 
-  letter-spacing: 10px; 
+  letter-spacing: 10px;
+  letter-spacing: 10px;
   /* Default letter spacing */
   letter-spacing: 10px;
   /* Default letter spacing */
@@ -59,7 +59,7 @@
 /* Cursor Animation */
 .banner span.typing-animation {
   border-right: 5px solid;
-  animation: typing 4s steps(18), cursor 0.5s step-end infinite alternate;
+  animation: typing 2s steps(18), cursor 0.5s step-end infinite alternate;
 }
 
 /* Cursor Animation Keyframes */
@@ -108,13 +108,13 @@
 }
 
 /* Remove Border and Box Shadow from Toggle Icon */
-.navbar-toggler{
+.navbar-toggler {
   border: none;
 }
 .navbar-toggler:focus {
-    outline: none; /* Remove the outline when the toggle button is focused */
-    box-shadow: none;
-    border: none; /* Remove any box shadow */
+  outline: none; /* Remove the outline when the toggle button is focused */
+  box-shadow: none;
+  border: none; /* Remove any box shadow */
 }
 
 /* Contact Form Styles */
@@ -297,18 +297,19 @@ body {
   height: 2px;
   background-color: #007bff;
 
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .profession-text {
+      font-size: 16px;
+      margin-top: 15px;
 
-/* Mobile responsiveness */
-@media (max-width: 768px) {
-    .profession-text {
-        font-size: 16px;
-        margin-top: 15px;
- 
-/* Mobile responsiveness */
-@media (max-width: 768px) {
-    .profession-text {
-        font-size: 16px;
-        margin-top: 15px;
-    }    }
+      /* Mobile responsiveness */
+      @media (max-width: 768px) {
+        .profession-text {
+          font-size: 16px;
+          margin-top: 15px;
+        }
+      }
+    }
+  }
 }
-}}
